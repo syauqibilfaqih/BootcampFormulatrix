@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Batch 7\\Documents\\Bootcamp\\Bootcamp.csproj",
+      "projectUniqueName": "C:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj",
       "projectName": "Bootcamp",
-      "projectPath": "C:\\Users\\Batch 7\\Documents\\Bootcamp\\Bootcamp.csproj",
+      "projectPath": "C:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj",
       "packagesPath": "C:\\Users\\Batch 7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Batch 7\\Documents\\Bootcamp\\obj\\",
+      "outputPath": "C:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Batch 7\\AppData\\Roaming\\NuGet\\NuGet.Config"
