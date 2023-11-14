@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj": {}
+    "c:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj": {
+    "c:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj",
+        "projectUniqueName": "c:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj",
         "projectName": "Bootcamp",
-        "projectPath": "C:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj",
+        "projectPath": "c:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\Bootcamp.csproj",
         "packagesPath": "C:\\Users\\Batch 7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\obj\\",
+        "outputPath": "c:\\Users\\Batch 7\\Documents\\FromGithub\\BootcampFormulatrix\\Bootcamp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 7\\AppData\\Roaming\\NuGet\\NuGet.Config"
