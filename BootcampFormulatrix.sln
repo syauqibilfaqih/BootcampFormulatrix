@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3-ReadOnlyConstDifference", "Day3-ReadOnlyConstDifference\Day3-ReadOnlyConstDifference.csproj", "{F8B9F1D2-7078-4616-9E0B-CFA508677428}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3-Encapsulation", "Day3-Encapsulation\Day3-Encapsulation.csproj", "{7924F646-C142-4FA1-A931-7538065F02F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day4", "Day4", "{FB7214DA-EC11-4C54-AE1D-E193CF8B1ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Day4\Project1\Project1.csproj", "{AEF386CC-62D3-49B9-8DDA-35A85A4E542C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +46,12 @@ Global
 		{7924F646-C142-4FA1-A931-7538065F02F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7924F646-C142-4FA1-A931-7538065F02F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7924F646-C142-4FA1-A931-7538065F02F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF386CC-62D3-49B9-8DDA-35A85A4E542C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF386CC-62D3-49B9-8DDA-35A85A4E542C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF386CC-62D3-49B9-8DDA-35A85A4E542C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF386CC-62D3-49B9-8DDA-35A85A4E542C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEF386CC-62D3-49B9-8DDA-35A85A4E542C} = {FB7214DA-EC11-4C54-AE1D-E193CF8B1ACC}
 	EndGlobalSection
 EndGlobal
