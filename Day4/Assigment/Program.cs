@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        Console.Write("Input Number: ");
+        Console.Write("Input number: ");
         int inputNumber = Convert.ToInt32(Console.ReadLine());
         inputNumber.FooBarConverter();
     }
