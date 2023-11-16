@@ -6,6 +6,14 @@
 		
 		Rumah rumah = rb;
 		rumah.BukaPintu();
+		
+		RumahDuaLantai rdl = new RumahDuaLantai();
+		Rumah rumahbaru = rdl;
+		rumahbaru.BukaPintu();
+		rumahbaru.TutupPintu();
+		
+		// RumahSatuLantai rsl = new RumahSatuLantai();
+		// rsl.TutupPintu();
 	}
 }
 abstract class Rumah
@@ -18,11 +26,39 @@ abstract class Rumah
 		"Keatas".Dump();
 	}
 	public abstract void BukaPintu();
+	public abstract void TutupPintu();
 }
+
+abstract class RumahSatuLantai:Rumah
+{
+	public override void TutupPintu()
+	{
+		"Putar Kanan".Dump();
+	}
+}
+
+class RumahDuaLantai : RumahSatuLantai
+{
+	public override void TutupPintu()
+	{
+		"Putar Dua Arah".Dump();
+	}
+	
+	public override void BukaPintu()
+	{
+		"Putar Kiri".Dump();
+	}
+}
+
 class RumahMewah : Rumah
 {
 	public override void BukaPintu() {
 		"Keatas".Dump();
+	}
+
+	public override void TutupPintu()
+	{
+		"Kebawah".Dump();
 	}
 }
 class RumahBiasa : Rumah
@@ -31,12 +67,22 @@ class RumahBiasa : Rumah
 	{
 		"Kedepan".Dump();
 	}
+
+	public override void TutupPintu()
+	{
+		"Kebelakang".Dump();
+	}
 }
 class RumahSederhana : Rumah
 {
 	public override void BukaPintu()
 	{
 		"Gorden".Dump();
+	}
+
+	public override void TutupPintu()
+	{
+	   "Geser".Dump();
 	}
 }
 
