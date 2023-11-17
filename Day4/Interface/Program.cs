@@ -1,32 +1,93 @@
-﻿// Interface
-interface IAnimal 
-{
-  void animalSound(); // interface method (does not have a body)
+﻿//Interface on GameController
+class Program {
+	static void Main() {
+		Player player = new Player();
+		MLPlayer mlplayer = new MLPlayer();
+		PBPlayer pbplayer = new PBPlayer();
+		GameController game = new GameController(pbplayer);
+		
+	}
 }
 
-// Pig "implements" the IAnimal interface
-class Pig : IAnimal 
-{
-  public void animalSound() 
-  {
-    // The body of animalSound() is provided here
-    Console.WriteLine("The pig says: wee wee");
-  }
+class GameController {
+	public IPlayer player;
+	public GameController(IPlayer p) {
+		player = p;
+	}
 }
-
-class Program 
+public interface IPlayer
 {
-  static void Main(string[] args) 
-  {
-    Pig myPig = new Pig();  // Create a Pig object
-    myPig.animalSound();
-  }
+	string GetName();
+	int GetId();
 }
+class Player : IPlayer {
+	private int _id;
+	private string _name;
 
-public static class IniExtension
-{
-	public static void Dump(this object x)
+	public int GetId()
 	{
-		Console.WriteLine(x.ToString());
+		return _id;
+	}
+	public string GetName()
+	{
+		return _name;
+	}
+}
+class MLPlayer : IPlayer {
+	private int _id;
+	private string _name;
+	private string _username;
+	private int _level;
+	
+	public bool ConnectToServer() {
+		return true;
+	}
+	public int GetId()
+	{
+		return _id;
+	}
+	public string GetName()
+	{
+		return _name;
+	}
+}
+class CODPlayer : IPlayer
+{
+	private int _id;
+	private string _name;
+	private string _username;
+	private int _level;
+
+	public bool ConnectToServer()
+	{
+		return true;
+	}
+	public int GetId()
+	{
+		return _id;
+	}
+	public string GetName()
+	{
+		return _name;
+	}
+}
+class PBPlayer : IPlayer
+{
+	private int _id;
+	private string _name;
+	private string _username;
+	private int _level;
+
+	public bool ConnectToServer()
+	{
+		return true;
+	}
+	public int GetId()
+	{
+		return _id;
+	}
+	public string GetName()
+	{
+		return _name;
 	}
 }
