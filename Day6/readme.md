@@ -1,4 +1,4 @@
-# Day 6 Material
+# Day 6 Materials
 
 - Object (Boxing & Unboxing + Pattern Matching)
 - Dynamic
