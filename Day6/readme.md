@@ -25,5 +25,7 @@
     if(a is int inta) // Pattern Matching
 
 ## Dynamic
+Dynamic will check a type of a variable at the runtime, whereas var check it at compile time. It's better to avoid the usage
+of Dynamic since it would be heavier and longer for the runtime process.
 
 
