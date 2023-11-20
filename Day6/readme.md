@@ -38,3 +38,10 @@ Differences among these modifiers:
 - in -> variable can't be modified by the method
 
 ## Static
+It simply doesn't belong to any new instances
+
+## Properties
+
+## Generic 
+
+## Exception Handling
