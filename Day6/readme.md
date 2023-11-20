@@ -1,7 +1,6 @@
 # Day 6 Material
 
-- Object
-    Boxing & Unboxing + Pattern Matching
+- Object (Boxing & Unboxing + Pattern Matching)
 - Dynamic
 - Ref, in, out
 - Static
