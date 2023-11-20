@@ -1,17 +1,17 @@
-#Day 6 Material
+# Day 6 Material
 
-##Object
+## Object
     Boxing & Unboxing + Pattern Matching
-##Dynamic
-##Ref, in, out
-##Static
-##Properties
-##Generic + Constraint
-##Exception & Handling
+## Dynamic
+## Ref, in, out
+## Static
+## Properties
+## Generic + Constraint
+## Exception & Handling
 
 
-##Object
-    ###Object
+## Object
+### Object
         |-Boxing
         |-Unboxing
     
@@ -25,6 +25,6 @@
 
     if(a is int inta) // Pattern Matching
 
-##Dynamic
+## Dynamic
 
 
