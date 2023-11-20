@@ -41,6 +41,8 @@ Differences among these modifiers:
 It simply doesn't belong to any new instances
 
 ## Properties
+Mainly to exploitate the usage of get and set. We can set it to be automatic properties simply like this:
+    public int x(){get;set;}
 
 ## Generic 
 
