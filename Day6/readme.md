@@ -33,8 +33,8 @@ These modifiers allow to fill parameters value by getting the adress of another 
 way will be more effective for memory allocation.
 
 Differences among these modifiers:
-ref -> variable must be assigned before accessed and can be modified by the method
-out -> variable must be assigned before the end of the method
-in -> variable can't be modified by the method
+-ref -> variable must be assigned before accessed and can be modified by the method
+-out -> variable must be assigned before the end of the method
+-in -> variable can't be modified by the method
 
 ## Static
