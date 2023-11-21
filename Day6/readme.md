@@ -5,9 +5,6 @@
 - Ref, in, out
 - Static
 - Properties
-- Generic + Constraint
-- Exception & Handling
-
 
 ## Object
 ### Object
@@ -46,6 +43,3 @@ Mainly to exploitate the usage of get and set. We can set it to be automatic pro
     public int x(){get;set;}
 ``` 
 
-## Generic 
-
-## Exception Handling
