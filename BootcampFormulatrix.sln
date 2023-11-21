@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3-Encapsulation", "Day3\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3-ReadOnlyConstDifference", "Day3\Day3-ReadOnlyConstDifference\Day3-ReadOnlyConstDifference.csproj", "{AE062DD4-EC6C-4C62-BCC1-7551D4EFEC40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dumper", "Dumper\Dumper.csproj", "{05C41C8D-D6EC-4C5B-8958-BA5FE49A5A8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -292,6 +294,10 @@ Global
 		{AE062DD4-EC6C-4C62-BCC1-7551D4EFEC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE062DD4-EC6C-4C62-BCC1-7551D4EFEC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE062DD4-EC6C-4C62-BCC1-7551D4EFEC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C41C8D-D6EC-4C5B-8958-BA5FE49A5A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C41C8D-D6EC-4C5B-8958-BA5FE49A5A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C41C8D-D6EC-4C5B-8958-BA5FE49A5A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C41C8D-D6EC-4C5B-8958-BA5FE49A5A8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AEF386CC-62D3-49B9-8DDA-35A85A4E542C} = {FB7214DA-EC11-4C54-AE1D-E193CF8B1ACC}
