@@ -1,7 +1,8 @@
 # Day 7 Materials
 
 - Generic + Constraint
-- Exception & Handling
+- Operator Overloading
+- Delegate 
 
 ## Generic 
 Make a place-holder so a class's data type can be customized by the user. Typically using < T > (without space).
@@ -45,4 +46,26 @@ class Calculator<T> where T : IAdditionOperators<T,T,T>
 ```
 IAdditionOperators is an interface to make a constraint for which data types compatile to the class and method.
 
-## Exception Handling
+## Operator Overloading
+By operator overloading, user can use and manipulate operators:
+```
+class Car
+{
+	public int price;
+	public Car(int p)
+	{
+		price = p;
+	}
+	public static Car operator +(Car left, Car right) // overriding constructor's operator
+	{
+		return new Car(left.price + right.price);
+	}
+
+}
+```
+
+## Delegate 
+It's a reference type to hold methods. Typically used for publisher-subscriber applications:
+```
+public delegate void MyDelegate(string message);
+```
