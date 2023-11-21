@@ -22,5 +22,27 @@ public class SetGet<T>{
 ```
 
 ## Generic Constrain
+There would be a problem if the generic is too general. For example:
+```
+public class Calculator<T>{
+
+	public T Add(T a, T b)
+	{
+	 return a + b;
+	}
+}
+```
+T has too much probability, it could be string, which is a problem to have operator "add". As solution, we can
+make a constrain for it:
+```
+class Calculator<T> where T : IAdditionOperators<T,T,T>
+{
+	public static T Add(T a, T b)
+	{
+	 return a + b;
+	}
+}
+```
+IAdditionOperators is an interface to make a constraint for which data types compatile to the class and method.
 
 ## Exception Handling
