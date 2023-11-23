@@ -2,7 +2,6 @@
 
 - Delegate
 - Event
-- Event Handler
 
 ## Delegate 
 - Custom Delegate
@@ -21,4 +20,3 @@ public event EventHandler subs;
 ```
 After this, the instance won't get any new data unless using "+=" operator instead of "=".
 
-## Event Handler
