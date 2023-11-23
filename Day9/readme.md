@@ -1,6 +1,7 @@
 # Day 8 Materials
 
 - Exception Handling
+- Collections
 
 ## Exception Handling
 A handler for exceptions occured in the program, typically written like this:
@@ -19,5 +20,8 @@ try {
 }
 // a program after finally will be excecuted when there's no exception, yet if there is, it won't be excecuted
 ```
-
+## Collections
+- **Array:** fixed size, type safety, index, must set size
+- **ArrayList:** dynamic size, not type safety, index
+- **List:** dynamic, type safety, index
 
