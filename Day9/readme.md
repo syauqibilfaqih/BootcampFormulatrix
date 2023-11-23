@@ -17,6 +17,7 @@ try {
 } finally {
    // statements to be executed
 }
+// a program after finally will be excecuted when there's no exception, yet if there is, it won't be excecuted
 ```
 
 
