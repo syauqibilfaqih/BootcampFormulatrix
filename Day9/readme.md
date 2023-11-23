@@ -24,4 +24,5 @@ try {
 - **Array:** fixed size, type safety, index, must set size
 - **ArrayList:** dynamic size, not type safety, index
 - **List:** dynamic, type safety, index
+- **HashSet:** dynamic, type safety, index, element, unique
 
