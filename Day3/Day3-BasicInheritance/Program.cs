@@ -25,6 +25,9 @@ class Parent
 }
 class Child : Parent
 {
+	// These variables will hide the inherited variables:
+	// public int a;
+	// public int b;
 	public int c;
 	public int d;
 	public Child(int a, int b, int c, int d) : base(a,b) 
