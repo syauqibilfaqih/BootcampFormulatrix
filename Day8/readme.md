@@ -2,6 +2,7 @@
 
 - Delegate
 - Event
+- Tuple
 
 ## Delegate 
 - Custom Delegate
@@ -20,3 +21,15 @@ public event EventHandler subs;
 ```
 After this, the instance won't get any new data unless using "+=" operator instead of "=".
 
+## Tuple
+Data structure that contains a sequence of elements of different data types.
+```
+class Calculator {
+	public static (bool, int) Add(int a, int b) {
+		if (a+b > 0) {
+			return (true, a+b);
+		}
+		return (false, 0);
+	}
+}
+```
