@@ -127,7 +127,7 @@ namespace GarbageCollectionDemo
 
 class MyClass4 : IDisposable
 {
-	public Youtube youtube;
+	// public Youtube youtube;
 	private bool disposedValue;
 
 	protected virtual void Dispose(bool disposing)
