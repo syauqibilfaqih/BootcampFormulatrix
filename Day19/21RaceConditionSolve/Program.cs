@@ -14,7 +14,7 @@ static class Program
 
 		await Task.WhenAll(task1, task2);
 
-		Console.WriteLine($"Counter: {counter}");
+		Console.WriteLine($"Counter: {x.counter}");
 		Console.ReadKey();
 	}
 
