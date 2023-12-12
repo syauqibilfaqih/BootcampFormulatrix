@@ -10,12 +10,14 @@ class Program {
 		string filePath = "data.txt";
 		string text = "Ini adalah contoh menulis string ke file.\nBaris kedua.";
 
-		using(FileStream fs = new(filePath, FileMode.Open, FileAccess.Write, FileShare.Read)) 
+		using(FileStream fs = new(filePath, FileMode.Create, FileAccess.Write, FileShare.Write)) 
 		{
 			using (StreamWriter sw = new(fs)) 
 			{
 				sw.BaseStream.Position = fs.Seek(3, SeekOrigin.Begin);
 				sw.BaseStream.Position = fs.Seek(3, SeekOrigin.Current);
+				sw.Flush();
+				sw.Write(text);
 			}
 		}
 

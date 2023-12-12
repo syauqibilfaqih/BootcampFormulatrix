@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 class Program {
 	static async Task Main() {
-		string path = @"..\00FileStream\bootcamp.txt";
+		string path = @"bootcamp.txt";
 
 		using (StreamReader reader = new StreamReader(path)) {
 			char[] buffer = new char[1024];
