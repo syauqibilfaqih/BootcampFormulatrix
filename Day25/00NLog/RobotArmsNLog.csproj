@@ -7,10 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="NLog" Version="5.1.4" />
+    <PackageReference Include="NLog" Version="5.2.7" />
     <Content Include="Program.cs" />
     <Content Include="RobotArms.cs" />
-    <Content Include="nlog.config" >
+    <Content Include="nlog.config">
         <CopyToOutputDirectory>always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
