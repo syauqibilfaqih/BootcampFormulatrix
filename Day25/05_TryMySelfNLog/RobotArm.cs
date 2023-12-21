@@ -1,3 +1,5 @@
+using NLog;
+
 namespace NLogTest
 {
 	public class RobotArm
