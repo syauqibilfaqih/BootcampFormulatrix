@@ -99,13 +99,13 @@ namespace Calculation.Tests
 			yield return (0, 0, 0);
 			yield return (-10, 10, 0);
 		}
-		
+
 		[TestCaseSource(typeof(TCS), nameof(TCS.Data))]
-		public void Add_ShouldReturnCorrectResult_TestCase(int a,int b, int expected)
+		public void Divide_ShouldReturnCorrectResult_TestCase(int a,int b, int expected)
 		{
 			// Arrange
 			// Act
-			int result = numberCalc.Add(a, b);
+			int result = numberCalc.Divide(a, b);
 
 			// Assert
 			Assert.AreEqual(expected, result);
