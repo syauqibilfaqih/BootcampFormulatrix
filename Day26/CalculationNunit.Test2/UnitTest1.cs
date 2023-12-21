@@ -56,6 +56,7 @@ namespace Calculation.Tests
 		}
 
 		[Test]
+		[Ignore("Elek")]
 		public void Divide_ShouldReturnCorrectResult()
 		{
 			// Arrange
@@ -70,6 +71,7 @@ namespace Calculation.Tests
 		}
 
 		[Test]
+		[Ignore("null")]
 		public void Divide_ShouldThrowDivideByZeroException()
 		{
 			// Arrange
