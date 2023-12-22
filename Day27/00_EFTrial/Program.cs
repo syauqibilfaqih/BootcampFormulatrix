@@ -1,2 +1,27 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using _00_EFTrial;
+using Microsoft.EntityFrameworkCore;
+
+class Program 
+{
+	static void Main() 
+	{
+		using(Northwind db = new Northwind()) 
+		{
+			// List<Category> categories = db.Categories.Include(c => c.Products).ToList();
+			// foreach(var c in categories) 
+			// {
+			// 	Console.WriteLine(c.CategoryName);
+			// 	Console.WriteLine(c.Products.Count);
+			// 	foreach(var p in c.Products) 
+			// 	{
+			// 		Console.WriteLine("\t" + p.ProductName);
+			// 	}
+			// }
+			var products = db.Products.Where(p => p.UnitPrice < 100 && p.UnitPrice > 80);
+			foreach(var p in products) 
+				{
+					Console.WriteLine("\t" + p.ProductName + " price " + p.UnitPrice);
+				}
+		}
+	}
+}
