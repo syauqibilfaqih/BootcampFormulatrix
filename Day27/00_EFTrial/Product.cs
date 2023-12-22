@@ -5,6 +5,7 @@ namespace _00_EFTrial;
 
 public class Product
 {
+    // [Key]
 	public int ProductId { get; set; }
 	[Required]
 	[StringLength(40)]
